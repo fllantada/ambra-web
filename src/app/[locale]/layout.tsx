@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 const localeToOg: Record<string, string> = {
   es: "es_ES",
   en: "en_GB",
+  it: "it_IT",
   fr: "fr_FR",
   de: "de_DE",
 };

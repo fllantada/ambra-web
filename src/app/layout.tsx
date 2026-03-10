@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Ambra Restaurante",
     locale: "es_ES",
-    alternateLocale: ["en_GB", "fr_FR", "de_DE"],
+    alternateLocale: ["en_GB", "it_IT", "fr_FR", "de_DE"],
     images: [
       {
         url: "/images/og-home.jpg",

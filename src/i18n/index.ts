@@ -1,14 +1,15 @@
 import type esDict from "./dictionaries/es.json";
 
 export type Dictionary = typeof esDict;
-export type Locale = "es" | "en" | "fr" | "de";
+export type Locale = "es" | "en" | "it" | "fr" | "de";
 
-export const locales: Locale[] = ["es", "en", "fr", "de"];
+export const locales: Locale[] = ["es", "en", "it", "fr", "de"];
 export const defaultLocale: Locale = "es";
 
 export const localeNames: Record<Locale, string> = {
   es: "Español",
   en: "English",
+  it: "Italiano",
   fr: "Français",
   de: "Deutsch",
 };
@@ -16,6 +17,7 @@ export const localeNames: Record<Locale, string> = {
 export const localeFlags: Record<Locale, string> = {
   es: "🇪🇸",
   en: "🇬🇧",
+  it: "🇮🇹",
   fr: "🇫🇷",
   de: "🇩🇪",
 };
@@ -23,6 +25,7 @@ export const localeFlags: Record<Locale, string> = {
 const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
   es: () => import("./dictionaries/es.json").then((m) => m.default),
   en: () => import("./dictionaries/en.json").then((m) => m.default),
+  it: () => import("./dictionaries/it.json").then((m) => m.default),
   fr: () => import("./dictionaries/fr.json").then((m) => m.default),
   de: () => import("./dictionaries/de.json").then((m) => m.default),
 };
