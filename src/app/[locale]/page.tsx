@@ -1,8 +1,41 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { pasta, meat, pinsa } from "@/data/menu";
 import MenuCard from "@/components/MenuCard";
 import SectionTitle from "@/components/SectionTitle";
-import { getDictionary, type Locale } from "@/i18n";
+import { getDictionary, locales, type Locale } from "@/i18n";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const dict = await getDictionary(locale as Locale);
+
+  const alternateLanguages: Record<string, string> = {};
+  for (const loc of locales) {
+    alternateLanguages[loc] = `/${loc}`;
+  }
+
+  return {
+    title: dict.metadata.homeTitle,
+    description: dict.metadata.siteDescription,
+    alternates: {
+      canonical: `/${locale}`,
+      languages: alternateLanguages,
+    },
+    openGraph: {
+      title: `${dict.metadata.homeTitle} | ${dict.metadata.siteName}`,
+      description: dict.metadata.siteDescription,
+      url: `/${locale}`,
+    },
+    twitter: {
+      title: `${dict.metadata.homeTitle} | ${dict.metadata.siteName}`,
+      description: dict.metadata.siteDescription,
+    },
+  };
+}
 
 export default async function Home({
   params,

@@ -1,6 +1,39 @@
-import { getDictionary, type Locale } from "@/i18n";
+import type { Metadata } from "next";
+import { getDictionary, locales, type Locale } from "@/i18n";
 import SectionTitle from "@/components/SectionTitle";
 import ContactForm from "@/components/ContactForm";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const dict = await getDictionary(locale as Locale);
+
+  const alternateLanguages: Record<string, string> = {};
+  for (const loc of locales) {
+    alternateLanguages[loc] = `/${loc}/contact`;
+  }
+
+  return {
+    title: dict.metadata.contactTitle,
+    description: dict.metadata.contactDescription,
+    alternates: {
+      canonical: `/${locale}/contact`,
+      languages: alternateLanguages,
+    },
+    openGraph: {
+      title: `${dict.metadata.contactTitle} | ${dict.metadata.siteName}`,
+      description: dict.metadata.contactDescription,
+      url: `/${locale}/contact`,
+    },
+    twitter: {
+      title: `${dict.metadata.contactTitle} | ${dict.metadata.siteName}`,
+      description: dict.metadata.contactDescription,
+    },
+  };
+}
 
 export default async function ContactPage({
   params,

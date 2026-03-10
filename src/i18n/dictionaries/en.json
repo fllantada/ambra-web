@@ -91,6 +91,18 @@
     "contact": "Contact",
     "rights": "All rights reserved."
   },
+  "metadata": {
+    "siteName": "Ambra Restaurant",
+    "siteDescription": "Authentic Italian cuisine in Palma de Mallorca. Fresh pasta, premium meats, Mediterranean seafood and artisanal Pinsa Romana.",
+    "homeTitle": "Italian Fine Dining in Palma de Mallorca",
+    "menuTitle": "Menu",
+    "menuDescription": "Discover our full menu: fresh pasta, premium meats, Mediterranean seafood, artisanal Pinsa Romana and homemade desserts.",
+    "aboutTitle": "About Us",
+    "aboutDescription": "Discover the story of Ambra: passion for Italian cuisine, D.O.P. and I.G.P. ingredients imported directly from Italy to Palma de Mallorca.",
+    "contactTitle": "Reservations",
+    "contactDescription": "Book your table at Ambra Restaurant. Authentic Italian cuisine in Palma de Mallorca. Open every day for lunch and dinner.",
+    "ogImageAlt": "Ambra Restaurant — Italian Fine Dining in Palma de Mallorca"
+  },
   "sections": {
     "Starters": "Starters",
     "Salads": "Salads",

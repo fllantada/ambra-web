@@ -1,5 +1,38 @@
+import type { Metadata } from "next";
 import SectionTitle from "@/components/SectionTitle";
-import { getDictionary, type Locale } from "@/i18n";
+import { getDictionary, locales, type Locale } from "@/i18n";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const dict = await getDictionary(locale as Locale);
+
+  const alternateLanguages: Record<string, string> = {};
+  for (const loc of locales) {
+    alternateLanguages[loc] = `/${loc}/about`;
+  }
+
+  return {
+    title: dict.metadata.aboutTitle,
+    description: dict.metadata.aboutDescription,
+    alternates: {
+      canonical: `/${locale}/about`,
+      languages: alternateLanguages,
+    },
+    openGraph: {
+      title: `${dict.metadata.aboutTitle} | ${dict.metadata.siteName}`,
+      description: dict.metadata.aboutDescription,
+      url: `/${locale}/about`,
+    },
+    twitter: {
+      title: `${dict.metadata.aboutTitle} | ${dict.metadata.siteName}`,
+      description: dict.metadata.aboutDescription,
+    },
+  };
+}
 
 export default async function AboutPage({
   params,

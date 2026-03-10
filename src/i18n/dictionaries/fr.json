@@ -91,6 +91,18 @@
     "contact": "Contact",
     "rights": "Tous droits réservés."
   },
+  "metadata": {
+    "siteName": "Restaurant Ambra",
+    "siteDescription": "Authentique cuisine italienne à Palma de Majorque. Pâtes fraîches, viandes premium, fruits de mer méditerranéens et Pinsa Romana artisanale.",
+    "homeTitle": "Cuisine Italienne à Palma de Majorque",
+    "menuTitle": "Carte",
+    "menuDescription": "Découvrez notre carte complète : pâtes fraîches, viandes premium, fruits de mer méditerranéens, Pinsa Romana artisanale et desserts maison.",
+    "aboutTitle": "À Propos",
+    "aboutDescription": "Découvrez l'histoire d'Ambra : passion pour la cuisine italienne, ingrédients D.O.P. et I.G.P. importés directement d'Italie à Palma de Majorque.",
+    "contactTitle": "Réservations",
+    "contactDescription": "Réservez votre table au Restaurant Ambra. Cuisine italienne authentique à Palma de Majorque. Ouvert tous les jours pour le déjeuner et le dîner.",
+    "ogImageAlt": "Restaurant Ambra — Cuisine Italienne à Palma de Majorque"
+  },
   "sections": {
     "Starters": "Entrées",
     "Salads": "Salades",

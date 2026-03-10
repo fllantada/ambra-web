@@ -1,7 +1,40 @@
+import type { Metadata } from "next";
 import { allSections } from "@/data/menu";
 import MenuCard from "@/components/MenuCard";
 import SectionTitle from "@/components/SectionTitle";
-import { getDictionary, type Locale, type Dictionary } from "@/i18n";
+import { getDictionary, locales, type Locale, type Dictionary } from "@/i18n";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const dict = await getDictionary(locale as Locale);
+
+  const alternateLanguages: Record<string, string> = {};
+  for (const loc of locales) {
+    alternateLanguages[loc] = `/${loc}/menu`;
+  }
+
+  return {
+    title: dict.metadata.menuTitle,
+    description: dict.metadata.menuDescription,
+    alternates: {
+      canonical: `/${locale}/menu`,
+      languages: alternateLanguages,
+    },
+    openGraph: {
+      title: `${dict.metadata.menuTitle} | ${dict.metadata.siteName}`,
+      description: dict.metadata.menuDescription,
+      url: `/${locale}/menu`,
+    },
+    twitter: {
+      title: `${dict.metadata.menuTitle} | ${dict.metadata.siteName}`,
+      description: dict.metadata.menuDescription,
+    },
+  };
+}
 
 export default async function MenuPage({
   params,
