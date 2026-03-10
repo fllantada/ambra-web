@@ -29,10 +29,19 @@ export async function generateMetadata({
       title: `${dict.metadata.homeTitle} | ${dict.metadata.siteName}`,
       description: dict.metadata.siteDescription,
       url: `/${locale}`,
+      images: [
+        {
+          url: "/images/og-home.jpg",
+          width: 1200,
+          height: 630,
+          alt: dict.metadata.ogImageAlt,
+        },
+      ],
     },
     twitter: {
       title: `${dict.metadata.homeTitle} | ${dict.metadata.siteName}`,
       description: dict.metadata.siteDescription,
+      images: ["/images/og-home.jpg"],
     },
   };
 }

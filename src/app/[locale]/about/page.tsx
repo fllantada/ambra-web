@@ -26,10 +26,19 @@ export async function generateMetadata({
       title: `${dict.metadata.aboutTitle} | ${dict.metadata.siteName}`,
       description: dict.metadata.aboutDescription,
       url: `/${locale}/about`,
+      images: [
+        {
+          url: "/images/og-contact.jpg",
+          width: 1200,
+          height: 630,
+          alt: dict.metadata.ogImageAlt,
+        },
+      ],
     },
     twitter: {
       title: `${dict.metadata.aboutTitle} | ${dict.metadata.siteName}`,
       description: dict.metadata.aboutDescription,
+      images: ["/images/og-contact.jpg"],
     },
   };
 }

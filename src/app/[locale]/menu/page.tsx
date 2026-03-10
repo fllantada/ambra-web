@@ -28,10 +28,19 @@ export async function generateMetadata({
       title: `${dict.metadata.menuTitle} | ${dict.metadata.siteName}`,
       description: dict.metadata.menuDescription,
       url: `/${locale}/menu`,
+      images: [
+        {
+          url: "/images/og-menu.jpg",
+          width: 1200,
+          height: 630,
+          alt: dict.metadata.ogImageAlt,
+        },
+      ],
     },
     twitter: {
       title: `${dict.metadata.menuTitle} | ${dict.metadata.siteName}`,
       description: dict.metadata.menuDescription,
+      images: ["/images/og-menu.jpg"],
     },
   };
 }

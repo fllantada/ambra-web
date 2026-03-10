@@ -57,9 +57,18 @@ export const metadata: Metadata = {
     siteName: "Ambra Restaurante",
     locale: "es_ES",
     alternateLocale: ["en_GB", "fr_FR", "de_DE"],
+    images: [
+      {
+        url: "/images/og-home.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ambra Restaurante — Italian Fine Dining in Palma de Mallorca",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    images: ["/images/og-home.jpg"],
   },
 };
 

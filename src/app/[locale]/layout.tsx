@@ -44,11 +44,20 @@ export async function generateMetadata({
       siteName: dict.metadata.siteName,
       locale: localeToOg[locale] || "es_ES",
       type: "website",
+      images: [
+        {
+          url: "/images/og-home.jpg",
+          width: 1200,
+          height: 630,
+          alt: dict.metadata.ogImageAlt,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: dict.metadata.siteName,
       description: dict.metadata.siteDescription,
+      images: ["/images/og-home.jpg"],
     },
   };
 }
