@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "reservations": "Reservations"
+  },
+  "hero": {
+    "location": "Palma de Mallorca",
+    "tagline": "Authentic Italian cuisine in the heart of the Mediterranean. Tradition, premium ingredients and passion in every dish.",
+    "viewMenu": "View Menu",
+    "bookTable": "Book a Table"
+  },
+  "home": {
+    "highlights": "Our Highlights",
+    "signature": "Signature",
+    "premium": "Premium",
+    "chefPick": "Chef's Pick",
+    "philosophy": "Our Philosophy",
+    "philosophyQuote": "Every dish is a journey to Italy, crafted with the finest ingredients and the recipe of tradition",
+    "freshPasta": "Fresh Pasta",
+    "viewFullMenu": "View Full Menu",
+    "bookYourTable": "Book Your Table",
+    "ctaText": "A unique gastronomic experience awaits you in Palma de Mallorca",
+    "contact": "Contact Us"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Premium Italian ingredients, prepared with time-honored recipes",
+    "restaurant": "Ambra Restaurant",
+    "extras": "Extras",
+    "bread": "Bread",
+    "gfBread": "Gluten free bread",
+    "aioli": "Aioli sauce",
+    "olives": "Olives",
+    "gfNote": "Gluten free options available (+€2.50) — Ask your waiter",
+    "allergens": "For any information on substances and allergens, you can consult the specific documentation that will be provided, upon request, by the staff on duty."
+  },
+  "about": {
+    "ourStory": "Our Story",
+    "title": "About Us",
+    "subtitle": "A passion for Italian cuisine from the heart of Rome to Palma de Mallorca",
+    "essenceTitle": "The Essence of Ambra",
+    "essenceP1": "Ambra was born from the passion to bring the most authentic flavors of Italy to the heart of Palma de Mallorca. Every ingredient is carefully selected, many of them imported directly from Italian producers with protected designation of origin.",
+    "essenceP2": "Our pasta is fresh and made daily. Our meats are of the finest quality, with Black Angus cuts and selected beef. Fish arrives fresh from the Mediterranean every morning.",
+    "essenceP3": "The Pinsa Romana, our specialty, is prepared with a long 72-hour fermentation dough, which gives it its unique texture: crispy on the outside and light on the inside.",
+    "valuesTitle": "Our Values",
+    "tradition": "Tradition",
+    "traditionText": "Recipes passed down from generation to generation, prepared with the respect they deserve.",
+    "quality": "Quality",
+    "qualityText": "D.O.P. and I.G.P. ingredients imported directly from Italy to guarantee authenticity.",
+    "passion": "Passion",
+    "passionText": "Every dish reflects our love for Italian cuisine and the desire to offer a unique experience.",
+    "findUs": "Find Us",
+    "locationText": "In the heart of the city, where the Mediterranean breeze meets Italian tradition."
+  },
+  "contact": {
+    "contactTitle": "Contact",
+    "title": "Reservations",
+    "subtitle": "Book your table and enjoy an unforgettable Italian dining experience",
+    "bookTable": "Book a Table",
+    "submitted": "Request sent",
+    "submittedText": "We will contact you to confirm your reservation.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "date": "Date",
+    "guests": "Guests",
+    "person": "guest",
+    "persons": "guests",
+    "moreThan8": "+8 guests",
+    "message": "Message",
+    "messagePlaceholder": "Allergies, preferences, special occasion...",
+    "submit": "Request Reservation",
+    "info": "Information",
+    "address": "Address",
+    "schedule": "Hours",
+    "everyDay": "Monday to Sunday",
+    "lunch": "Lunch: 12:30 - 15:30",
+    "dinner": "Dinner: 19:00 - 23:00",
+    "contactInfo": "Contact",
+    "tip": "Tip",
+    "tipText": "For groups of more than 8 people, please contact us directly by phone to arrange your event."
+  },
+  "footer": {
+    "description": "Authentic Italian cuisine in the heart of Palma de Mallorca. Tradition, quality and passion in every dish.",
+    "schedule": "Hours",
+    "everyDay": "Monday - Sunday",
+    "hours": "12:30 - 15:30 / 19:00 - 23:00",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "sections": {
+    "Starters": "Starters",
+    "Salads": "Salads",
+    "Pasta": "Pasta",
+    "Meat": "Meat",
+    "Fish": "Fish",
+    "Pinsa Romana": "Pinsa Romana",
+    "Postres": "Desserts"
+  }
+}

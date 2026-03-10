@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "menu": "Speisekarte",
+    "about": "Über uns",
+    "reservations": "Reservierungen"
+  },
+  "hero": {
+    "location": "Palma de Mallorca",
+    "tagline": "Authentische italienische Küche im Herzen des Mittelmeers. Tradition, erstklassige Zutaten und Leidenschaft in jedem Gericht.",
+    "viewMenu": "Speisekarte",
+    "bookTable": "Tisch Reservieren"
+  },
+  "home": {
+    "highlights": "Unsere Highlights",
+    "signature": "Signature",
+    "premium": "Premium",
+    "chefPick": "Empfehlung des Chefs",
+    "philosophy": "Unsere Philosophie",
+    "philosophyQuote": "Jedes Gericht ist eine Reise nach Italien, zubereitet mit den besten Zutaten und dem Rezept der Tradition",
+    "freshPasta": "Frische Pasta",
+    "viewFullMenu": "Vollständige Karte",
+    "bookYourTable": "Reservieren Sie Ihren Tisch",
+    "ctaText": "Ein einzigartiges gastronomisches Erlebnis erwartet Sie in Palma de Mallorca",
+    "contact": "Kontakt"
+  },
+  "menu": {
+    "title": "Unsere Speisekarte",
+    "subtitle": "Erstklassige italienische Zutaten, nach bewährten Rezepten zubereitet",
+    "restaurant": "Restaurant Ambra",
+    "extras": "Extras",
+    "bread": "Brot",
+    "gfBread": "Glutenfreies Brot",
+    "aioli": "Aioli-Soße",
+    "olives": "Oliven",
+    "gfNote": "Glutenfreie Optionen verfügbar (+2,50 €) — Fragen Sie Ihren Kellner",
+    "allergens": "Für Informationen zu Substanzen und Allergenen können Sie die spezifische Dokumentation einsehen, die Ihnen auf Anfrage vom diensthabenden Personal zur Verfügung gestellt wird."
+  },
+  "about": {
+    "ourStory": "Unsere Geschichte",
+    "title": "Über Uns",
+    "subtitle": "Leidenschaft für die italienische Küche vom Herzen Roms bis nach Palma de Mallorca",
+    "essenceTitle": "Die Essenz von Ambra",
+    "essenceP1": "Ambra entstand aus der Leidenschaft, die authentischsten Aromen Italiens nach Palma de Mallorca zu bringen. Jede Zutat wird sorgfältig ausgewählt, viele davon direkt von italienischen Produzenten mit geschützter Herkunftsbezeichnung importiert.",
+    "essenceP2": "Unsere Pasta wird täglich frisch zubereitet. Unser Fleisch ist von bester Qualität mit Black Angus Stücken und ausgewähltem Rindfleisch. Der Fisch kommt jeden Morgen frisch aus dem Mittelmeer.",
+    "essenceP3": "Die Pinsa Romana, unsere Spezialität, wird mit einem 72 Stunden lang fermentierten Teig zubereitet, der ihr ihre einzigartige Textur verleiht: außen knusprig und innen leicht.",
+    "valuesTitle": "Unsere Werte",
+    "tradition": "Tradition",
+    "traditionText": "Rezepte, die von Generation zu Generation weitergegeben werden, mit dem Respekt zubereitet, den sie verdienen.",
+    "quality": "Qualität",
+    "qualityText": "D.O.P.- und I.G.P.-Zutaten direkt aus Italien importiert, um Authentizität zu garantieren.",
+    "passion": "Leidenschaft",
+    "passionText": "Jedes Gericht spiegelt unsere Liebe zur italienischen Küche und den Wunsch wider, ein einzigartiges Erlebnis zu bieten.",
+    "findUs": "Finden Sie Uns",
+    "locationText": "Im Herzen der Stadt, wo die Mittelmeerbrise auf italienische Tradition trifft."
+  },
+  "contact": {
+    "contactTitle": "Kontakt",
+    "title": "Reservierungen",
+    "subtitle": "Reservieren Sie Ihren Tisch und genießen Sie ein unvergessliches italienisches Gastronomieerlebnis",
+    "bookTable": "Tisch Reservieren",
+    "submitted": "Anfrage gesendet",
+    "submittedText": "Wir werden Sie kontaktieren, um Ihre Reservierung zu bestätigen.",
+    "name": "Name",
+    "namePlaceholder": "Ihr Name",
+    "email": "E-Mail",
+    "emailPlaceholder": "ihre@email.com",
+    "date": "Datum",
+    "guests": "Personen",
+    "person": "Person",
+    "persons": "Personen",
+    "moreThan8": "+8 Personen",
+    "message": "Nachricht",
+    "messagePlaceholder": "Allergien, Präferenzen, besonderer Anlass...",
+    "submit": "Reservierung Anfragen",
+    "info": "Informationen",
+    "address": "Adresse",
+    "schedule": "Öffnungszeiten",
+    "everyDay": "Montag bis Sonntag",
+    "lunch": "Mittagessen: 12:30 - 15:30",
+    "dinner": "Abendessen: 19:00 - 23:00",
+    "contactInfo": "Kontakt",
+    "tip": "Tipp",
+    "tipText": "Für Gruppen von mehr als 8 Personen kontaktieren Sie uns bitte direkt telefonisch, um Ihre Veranstaltung zu organisieren."
+  },
+  "footer": {
+    "description": "Authentische italienische Küche im Herzen von Palma de Mallorca. Tradition, Qualität und Leidenschaft in jedem Gericht.",
+    "schedule": "Öffnungszeiten",
+    "everyDay": "Montag - Sonntag",
+    "hours": "12:30 - 15:30 / 19:00 - 23:00",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "sections": {
+    "Starters": "Vorspeisen",
+    "Salads": "Salate",
+    "Pasta": "Pasta",
+    "Meat": "Fleisch",
+    "Fish": "Fisch",
+    "Pinsa Romana": "Pinsa Romana",
+    "Postres": "Desserts"
+  }
+}
