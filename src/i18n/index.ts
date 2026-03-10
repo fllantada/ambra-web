@@ -7,10 +7,17 @@ export const locales: Locale[] = ["es", "en", "fr", "de"];
 export const defaultLocale: Locale = "es";
 
 export const localeNames: Record<Locale, string> = {
-  es: "ES",
-  en: "EN",
-  fr: "FR",
-  de: "DE",
+  es: "Español",
+  en: "English",
+  fr: "Français",
+  de: "Deutsch",
+};
+
+export const localeFlags: Record<Locale, string> = {
+  es: "🇪🇸",
+  en: "🇬🇧",
+  fr: "🇫🇷",
+  de: "🇩🇪",
 };
 
 const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
